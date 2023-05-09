@@ -13,4 +13,4 @@ class Solution:
             row = newRow
 #Return the first element of the last row, which contains the total number of unique paths to get from the top left corner to the bottom right corner of the grid.
         return row[0]
-        
+#In summary, m is used to represent rows and n is used to represent columns in the code. The first two lines of code are not using both m and n to represent rows. The first line row = [1] * n uses n to create a list representing the first row of the grid, while the second line for i in range(m-1): uses m to iterate through the rows of the grid.
