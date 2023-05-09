@@ -16,6 +16,7 @@ class Solution:
             
         for c in range(N):
             if col[c]==0:
+#The extra line for i in range(M): is necessary because setting an entire column to 0 requires iterating over each row in the matrix and setting the element in that column to 0.
                 for i in range(M):
                     matrix[i][c]= 0
         return matrix
